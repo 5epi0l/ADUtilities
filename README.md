@@ -10,7 +10,7 @@ This repository aims to provide practical, ready-to-use utilities that help stre
 
 ### 🔧 **TimeFix – AD Clock Skew Sync Script**
 
-A lightweight Bash script that fetches the time from a target Windows host (via WinRM HTTP headers) and synchronizes your Linux machine’s clock.
+Two lightweight Bash and Python scripts that fetches the time from a target Windows host (via WinRM HTTP headers) and synchronizes your Linux machine’s clock.
 Useful for resolving **Kerberos clock-skew errors (KRB_AP_ERR_SKEW)** during pentesting.
 
 ## **Roadmap**
