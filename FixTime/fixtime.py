@@ -1,7 +1,7 @@
 # FixTime
 # Author: x4c1s
 # Date: 16/11/25
-# License: MIT
+# License: WTFPL
 
 import requests
 import os
