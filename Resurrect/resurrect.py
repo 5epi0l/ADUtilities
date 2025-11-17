@@ -263,7 +263,7 @@ python3 resurrect.py find --domain example.com --username admin --ldaps --target
         help='Restore Deleted Objects to their respective OU'
     )
     add_common_args(find_parser)
-    find_parser.add_argument('--page-size', required=False, default=10, type=int, help='Number of results per page (default 10)')
+    find_parser.add_argument('--page-size', required=False, type=int, help='Number of results per page (default 10)')
     find_parser.set_defaults(func=find_deleted_objects)
 
 
