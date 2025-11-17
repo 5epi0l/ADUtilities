@@ -204,7 +204,6 @@ def restore_deleted_objects(args):
                     ]
                 )
             if results:
-                    print(results)
                     print("[*] Object restored successfully")
                     print(f"[*] New DN: {new_dn}")
             else:
