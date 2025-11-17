@@ -65,7 +65,7 @@ python3 adtomb.py find --domain example.com --username admin \
 
 # Using Pass-The-Hash
 python3 adtomb.py find --domain example.com --username admin \
-  --password 'aad3b435b51404eeaad3b435b51404ee:8846f7eaee8fb117ad06bdd830b7586c' \ 
+  --hash '8846f7eaee8fb117ad06bdd830b7586c' \ 
   --target 10.10.11.72 --ldaps
 ```
 
