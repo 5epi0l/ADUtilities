@@ -1,6 +1,8 @@
 import subprocess
 import argparse 
 
+# Author : 0xRushikesh
+# Date : 06/12/2025
 
 VULNS = {
     'zerologon': (False, True),
